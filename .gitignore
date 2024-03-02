@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+
+# IDE
+.idea/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Python egg metadata, scripts, bytecode
+*.egg-info/
+*.egg
+dist/
+build/
+
+# .env files
+.env
+
+# Log files
+*.log
+
+# Cache files
+*.cache/
+
+# Database
+*.db
+*.sqlite3
+
+# Editor-specific files
+*~
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
