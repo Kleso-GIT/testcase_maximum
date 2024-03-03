@@ -16,7 +16,7 @@ SELECT c.communication_id,
        s.visitor_session_id,
        s.date_time AS sessions_date_time,
        s.campaign_id,
-       COALESCE(s.row_n, 0) AS row_n
+       CAST(s.row_n AS INTEGER) AS row_n
 FROM web_data.communications c
 LEFT JOIN ranked_sessions s 
     ON c.visitor_id = s.visitor_id 
